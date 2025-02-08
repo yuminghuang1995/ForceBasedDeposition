@@ -6,7 +6,7 @@ This project contains data for all models in paper, including obj files in **mod
 
 The geometry-based and force-based adaptive deposition files are under the **toolpaths** folder. The format is:
 
-List of geometric vertices, with (x, y, z) coordinates.
+List of geometric vertices, with **(x, y, z)** coordinates.
 
 v 0.123 0.234 0.345 1.0
 
@@ -14,7 +14,7 @@ v ...
 
 ...
 
-List of vertex normals in (x,y,z) form.
+List of vertex normals in **(x, y, z)** form.
 
 vn 0.707 0.000 0.707
 
@@ -22,7 +22,7 @@ vn ...
 
 ...
 
-Extrusion volume in (e) form.
+Extrusion volume in **(e)** form.
 
 e 0.32
 
