@@ -12,7 +12,7 @@ v ...
 
 ...
 
-List of vertex normals in **(x, y, z)** form.
+List of vertex normals in **(nx, ny, nz)** form.
 
 vn 0.099 	0.037 	0.994
 
