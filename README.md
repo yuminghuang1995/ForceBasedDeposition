@@ -20,7 +20,7 @@ vn ...
 
 ...
 
-Extrusion volume in **(e)** form.
+Extrusion volume corresponding to every vertex in **(e)** form.
 
 e 0.219
 
