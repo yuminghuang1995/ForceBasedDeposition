@@ -4,7 +4,7 @@ This project contains data for all models in paper, including obj files in **mod
 
 The geometry-based and force-based adaptive deposition files are under the **toolpaths** folder. The format is:
 
-# List of geometric vertices, with **(x, y, z)** coordinates.
+List of geometric vertices, with **(x, y, z)** coordinates.
 
 v 6.552 	46.460 	21.690
 
