@@ -32,5 +32,7 @@ e ...
 
 ...
 
-Here is the video of the paper: [![Watch the video](https://img.youtube.com/vi/i_Gpd3_gRxA/hqdefault.jpg)](https://youtu.be/i_Gpd3_gRxA)
+Here is the video of this paper: 
+
+[![Watch the video](https://img.youtube.com/vi/i_Gpd3_gRxA/hqdefault.jpg)](https://youtu.be/i_Gpd3_gRxA)
 
