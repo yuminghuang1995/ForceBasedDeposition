@@ -22,7 +22,7 @@ We implemented the force-based adaptive deposition strategy on a UR5e-based mult
 
 **Models**: Includes all 3D geometry files (e.g., Bridge, Bracket, Topo-Opt, Bunny-Head) used for printing experiments.
 
-**Toolpaths**: Contains two sets of path definitions for each model. One set follows pure geometry-based planning, while the other incorporates force-based adaptive deposition. Each file lists vertex coordinates, normals, and corresponding extrusion volumes. The format of each file is:
+**Toolpaths**: Contains two sets of path definitions for each model. One set follows pure geometry-based planning, while the other incorporates force-based adaptive deposition. Each file lists vertex coordinates, normals, and corresponding extrusion volumes, which are computed from local surface geometry. The format of each file is:
 
 \# List of geometric vertices, with **(x, y, z)** coordinates.
 
