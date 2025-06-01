@@ -3,6 +3,7 @@
 [![Watch the video](./video_cover.png)](https://youtu.be/i_Gpd3_gRxA)
 
 **Force-Based Adaptive Deposition for Curved 3D Printing**
+
 This project addresses the challenge of achieving consistent material deposition in filament-based multi-axis additive manufacturing when printing curved layers. In conventional planar 3D printing, a fixed layer height allows a constant optimal extrusion rate and print speed, ensuring uniform material distribution. However, when layers follow complex curved geometries, local layer thickness varies continuously and deposition angles change across the surface. These variations commonly lead to under-filled regions, visible as porosity, and weaken inter-layer bonding. As porosity errors accumulate over successive layers—particularly in models with many curved layers—parts become prone to reduced mechanical strength, delamination, or fracture.
 
 **Adaptive Deposition through Real-Time Force Sensing**
@@ -21,9 +22,7 @@ We implemented the force-based adaptive deposition strategy on a UR5e-based mult
 
 **Models**: Includes all 3D geometry files (e.g., Bridge, Bracket, Topo-Opt, Bunny-Head) used for printing experiments.
 
-**Toolpaths**: Contains two sets of path definitions for each model. One set follows pure geometry-based planning, while the other incorporates force-based adaptive deposition. Each file lists vertex coordinates, normals, and corresponding extrusion volumes (computed from local surface geometry).
-
-The geometry-based and force-based adaptive deposition files are under the **toolpaths** folder. The format is:
+**Toolpaths**: Contains two sets of path definitions for each model. One set follows pure geometry-based planning, while the other incorporates force-based adaptive deposition. Each file lists vertex coordinates, normals, and corresponding extrusion volumes (computed from local surface geometry). The format is:
 
 \# List of geometric vertices, with **(x, y, z)** coordinates.
 
