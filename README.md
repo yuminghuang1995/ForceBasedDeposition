@@ -1,6 +1,6 @@
 # Force-Based Adaptive Deposition in Multi-Axis Additive Manufacturing: Low Porosity for Enhanced Strength
 
-[![Watch the video](https://img.youtube.com/vi/i_Gpd3_gRxA/maxresdefault.jpg)](https://youtu.be/i_Gpd3_gRxA)
+[![Watch the video](./my-cover.png)](https://youtu.be/i_Gpd3_gRxA)
 
 ![Pipeline Figure](Figure_pipline.png)
 
