@@ -14,7 +14,7 @@ To overcome these issues, we propose a force-based sensing approach that integra
 
 **Experimental Validation and Mechanical Strength Improvement**
 
-![Pipeline Figure](Figure_topopt.png)
+![Pipeline Figure](Figure_topoopt.png)
 
 We implemented the force-based adaptive deposition strategy on a UR5e-based multi-axis printing platform, synchronized with a Duet 3D control board. Physical experiments include printing several test models—such as the Bracket, Bridge, Topology-Optimized block, and Bunny-Head—using both geometry-driven and force-based methods. Tensile testing and SEM imaging reveal that force-based prints consistently achieve higher failure loads and exhibit significantly reduced internal voids compared to purely geometry-based approaches. For instance, on the Topology-optimized model with 359 curved layers, our method yields up to 72% higher failure load than geometry-based curved slicing when normalized by weight. Moreover, when simulating nozzle blockages or missing material segments, force-based control effectively compensates for these imperfections in subsequent layers—demonstrating robustness against unpredictable extrusion errors.
 
