@@ -34,6 +34,5 @@ e ...
 
 ...
 
-Here is the video of this paper: 
 
 
