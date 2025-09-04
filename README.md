@@ -65,11 +65,11 @@ By combining geometry-based extrusion estimates with real-time force feedback, t
 
 **Citation**
 
-@article{huang2025Force, [][]
-  title={Force-Based Adaptive Deposition in Multi-Axis Additive Manufacturing: Low Porosity for Enhanced Strength},[][]
-  author={Huang, Yuming and Su, Renbo and Qian, Kun and Zhang, Tianyu and Chen, Yongxue and Liu, Tao and Fang, Guoxin and Wang, Weiming and Wang, Charlie CL},[][]
-  journal={Robotics and Computer-Integrated Manufacturing},[][]
-  year={2025},[][]
-  publisher={Elsevier}[][]
+@article{huang2025Force,  
+  title={Force-Based Adaptive Deposition in Multi-Axis Additive Manufacturing: Low Porosity for Enhanced Strength},  
+  author={Huang, Yuming and Su, Renbo and Qian, Kun and Zhang, Tianyu and Chen, Yongxue and Liu, Tao and Fang, Guoxin and Wang, Weiming and Wang, Charlie CL},  
+  journal={Robotics and Computer-Integrated Manufacturing},  
+  year={2025},  
+  publisher={Elsevier}  
 }
 
