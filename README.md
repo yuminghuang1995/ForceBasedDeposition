@@ -2,6 +2,7 @@
 
 Robotics and Computer-Integrated Manufacturing
 Yuming Huang*, Renbo Su*, Kun Qian, Tianyu Zhang, Yongxue Chen, Tao Liu, Guoxin Fang and Charlie C.L. Wang†
+
 *Joint first authors        
 †Corresponding author
 
