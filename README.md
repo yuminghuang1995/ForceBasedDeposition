@@ -50,6 +50,15 @@ e ...
 
 **Conclusion**
 
-By combining geometry-based extrusion estimates with real-time force feedback, this force-based adaptive deposition method significantly reduces porosity and improves mechanical strength in curved 3D printing, offering a robust solution for filament-based multi-axis additive manufacturing.
+By combining geometry-based extrusion estimates with real-time force feedback, this force-based adaptive deposition method significantly reduces porosity and improves mechanical strength in curved 3D printing, offering a robust solution for filament-based multi-axis additive manufacturing. The source code will be released soon.
 
+**Conclusion**
+
+@article{huang2025Force,
+  title={Force-Based Adaptive Deposition in Multi-Axis Additive Manufacturing: Low Porosity for Enhanced Strength},
+  author={Huang, Yuming and Su, Renbo and Qian, Kun and Zhang, Tianyu and Chen, Yongxue and Liu, Tao and Fang, Guoxin and Wang, Weiming and Wang, Charlie CL},
+  journal={Robotics and Computer-Integrated Manufacturing},
+  year={2025},
+  publisher={Elsevier}
+}
 
