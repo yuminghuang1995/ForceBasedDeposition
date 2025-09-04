@@ -1,8 +1,13 @@
 # Force-Based Adaptive Deposition in Multi-Axis Additive Manufacturing: Low Porosity for Enhanced Strength
 
+Robotics and Computer-Integrated Manufacturing
 Yuming Huang*, Renbo Su*, Kun Qian, Tianyu Zhang, Yongxue Chen, Tao Liu, Guoxin Fang and Charlie C.L. Wang†
 *Joint first authors        
 †Corresponding author
+
+[Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5146382)
+
+
 
 **Force-Based Adaptive Deposition for Curved 3D Printing**
 
