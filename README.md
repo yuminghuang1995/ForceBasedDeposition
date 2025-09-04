@@ -7,7 +7,7 @@ Yuming Huang*, Renbo Su*, Kun Qian, Tianyu Zhang, Yongxue Chen, Tao Liu, Guoxin 
 *Equal contribution        
 †Corresponding author
 
-[Paper]((assets/my-report.pdf))  [Code](https://github.com/yuminghuang1995/ForceBasedDeposition)  [Video](https://www.youtube.com/watch?v=i_Gpd3_gRxA&feature=youtu.be)
+[Paper]((assets/RCIMForceBasedAM.pdf))  [Code](https://github.com/yuminghuang1995/ForceBasedDeposition)  [Video](https://www.youtube.com/watch?v=i_Gpd3_gRxA&feature=youtu.be)
 
 
 
