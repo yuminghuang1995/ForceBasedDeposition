@@ -67,7 +67,7 @@ Step1: The **interpreter** folder contains controller codes for UR robots. Pleas
 
 Step2: This source code is mainly used for the UR5e robot. For other models of robots, you need to modify the **send_cmd_interpreter_mode_file** function in the **main.py** and the interpreter suite in the **interpreter** folder. For information on how to switch to other robots, please refer to: https://s3-eu-west-1.amazonaws.com/ur-support-site/98703/interpreter-examples.7z
 
-Step3: **global.script** and **interpreterMode.script** need to be manually stored on the UR controller side. For examples on how to use UR interpreter mode, please refer to: https://www.universal-robots.com/articles/ur/programming/interpreter-mode/   
+Step3: **global.script** and **interpreterMode.script** need to be manually stored on the UR controller side. Change IP setting based on your computer IP. For examples on how to use UR interpreter mode, please refer to: https://www.universal-robots.com/articles/ur/programming/interpreter-mode/   
 
 Step4: For the language, it is recommended to install **Python 3.9** or later, and **Windows 11** to avoid possible compatibility issues. This code only requires the installation of some basic libraries such as numpy.
 
