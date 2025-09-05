@@ -27,13 +27,13 @@ To overcome these issues, we propose a force-based sensing approach that integra
 
 ![Pipeline Figure](Figure_topoopt.png)
 
-We implemented the force-based adaptive deposition strategy on a UR5e-based multi-axis printing platform, synchronized with a Duet 3D control board. Physical experiments include printing several test models, such as the Bracket, Bridge, Topology-Optimized block, and Bunny-Head, using both geometry-driven and force-based methods. Tensile testing and SEM imaging reveal that force-based prints consistently achieve higher failure loads and exhibit significantly reduced internal voids compared to purely geometry-based approaches. For instance, on the Topology-optimized model with 359 curved layers, our method yields up to 72% higher failure load than geometry-based curved slicing when normalized by weight. Moreover, when simulating nozzle blockages or missing material segments, force-based control effectively compensates for these imperfections in subsequent layers, demonstrating robustness against unpredictable extrusion errors.
+We implemented the force-based adaptive deposition strategy on a UR5e-based multi-axis printing platform, synchronized with a Duet 3D control board. Physical experiments include printing several test models, such as the Bracket, Bridge, Topology-Optimized block, and Bunny-Head, using force-based methods. Tensile testing and SEM imaging reveal that force-based prints consistently achieve higher failure loads and exhibit significantly reduced internal voids compared to purely geometry-based approaches. For instance, on the Topology-optimized model with 359 curved layers, our method yields up to 72% higher failure load than geometry-based curved slicing when normalized by weight. Moreover, when simulating nozzle blockages or missing material segments, force-based control effectively compensates for these imperfections in subsequent layers, demonstrating robustness against unpredictable extrusion errors.
 
 **Repository Structure** 
 
 **Models**: Includes all 3D geometry files (e.g., Bridge, Bracket, Topo-Opt, Bunny-Head) used for printing experiments.
 
-**Toolpaths**: Contains two sets of path definitions for each model. One set follows pure geometry-based planning, while the other incorporates force-based adaptive deposition. Each file lists vertex coordinates, normals, and corresponding extrusion volumes, which are computed from local surface geometry. The format of each file is:
+**Toolpaths**: Contains force-based adaptive deposition. Each file lists vertex coordinates, normals, and corresponding extrusion volumes, which are computed from local surface geometry. The format of each file is:
 
 \# List of geometric vertices, with **(x, y, z)** coordinates.
 
