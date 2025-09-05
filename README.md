@@ -61,8 +61,6 @@ e ...
 
 **Usage**
 
-**Platform**
-
 This source code is mainly used for the UR5e robot. For other models of robots, you need to modify the send_cmd_interpreter_mode_file function in the main.py and the interpreter suite in the interpreter folder. It is recommended to install Python 3.8 or later. Open a terminal and type python main.py, then enjoy.
 
 
