@@ -69,7 +69,9 @@ Step2: This source code is mainly used for the UR5e robot. For other models of r
 
 Step3: **global.script** and **interpreterMode.script** need to be manually stored on the UR5e controller side. 
 
-Step4: For the language, it is recommended to install **Python 3.9** or later. After all the above settings are completed, open a terminal and type python **main.py**, then enjoy. The source code will be released soon.
+Step4: For the language, it is recommended to install **Python 3.9** or later, and **Windows 11** to avoid possible compatibility issues. This code only requires the installation of some basic libraries such as numpy.
+
+Step5: After all the above settings are completed, open a terminal and type **python main.py**, then enjoy. The source code will be released soon.
 
 
 **Conclusion**
