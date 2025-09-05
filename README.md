@@ -61,7 +61,15 @@ e ...
 
 **Usage**
 
-This source code is mainly used for the UR5e robot. The **interpreter** folder contains controller codes specifically for UR5e. **global.script** and **interpreterMode.script** need to be manually stored on the UR5e controller side. For other models of robots, you need to modify the **send_cmd_interpreter_mode_file** function in the **main.py** and the interpreter suite in the **interpreter** folder. For the language, it is recommended to install **Python 3.9** or later. After all the above settings are completed, open a terminal and type python **main.py**, then enjoy. The source code will be released soon.
+
+
+Step1: The **interpreter** folder contains controller codes specifically for UR5e. Please place this folder and **main.py** file in the same directory. 
+
+Step2: This source code is mainly used for the UR5e robot. For other models of robots, you need to modify the **send_cmd_interpreter_mode_file** function in the **main.py** and the interpreter suite in the **interpreter** folder.
+
+Step3: **global.script** and **interpreterMode.script** need to be manually stored on the UR5e controller side. 
+
+Step4: For the language, it is recommended to install **Python 3.9** or later. After all the above settings are completed, open a terminal and type python **main.py**, then enjoy. The source code will be released soon.
 
 
 **Conclusion**
