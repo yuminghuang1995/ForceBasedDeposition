@@ -61,7 +61,7 @@ e ...
 
 **Usage**
 
-This source code is mainly used for the UR5e robot. For other models of robots, you need to modify the send_cmd_interpreter_mode_file function in the main.py and the interpreter suite in the interpreter folder. It is recommended to install Python 3.8 or later. Open a terminal and type python main.py, then enjoy.
+This source code is mainly used for the UR5e robot. The **interpreter** folder contains controller codes specifically for UR5e. **global.script** and **interpreterMode.script** need to be manually stored on the UR5e controller side. For other models of robots, you need to modify the **send_cmd_interpreter_mode_file** function in the **main.py** and the interpreter suite in the **interpreter** folder. For the language, it is recommended to install **Python 3.9** or later. After all the above settings are completed, open a terminal and type python **main.py**, then enjoy.
 
 
 **Conclusion**
