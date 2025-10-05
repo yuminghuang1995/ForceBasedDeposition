@@ -203,14 +203,14 @@ def process_last_line(merged_file_path_):
 
     if not elements or len(elements) < 3:
         if len(lines) < 2:
-            raise ValueError("文件内容不足，无法处理！")
+            raise ValueError("no content")
         last_line = lines[-2].strip()
         elements = last_line.split()
 
     try:
         elements[2] = str(float(elements[2]) + 30)
     except (ValueError, IndexError):
-        raise ValueError("无法处理文件内容，检查是否格式正确")
+        raise ValueError("wrong file format")
 
     new_line = '\t'.join(elements)
     original_line_count = len(lines)
@@ -370,4 +370,3 @@ if __name__ == "__main__":
     execution_time = execution_time / 60
     sum_extrusion('output/merge.txt')
     print(f'Finish printing the model. Time: {execution_time:.3f}')
-
