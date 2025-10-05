@@ -37,13 +37,13 @@ We implemented the force-based adaptive deposition strategy on a UR5e-based mult
 
 \# List of geometric vertices, with **(x, y, z)** coordinates.
 
-v 6.552 	46.460 	21.690
-v ...
-...
+v 6.552 	46.460 	21.690  
+v ...  
+...  
 
 \# List of vertex normals in **(nx, ny, nz)** form.
 
-vn 0.099 	0.037 	0.994
+vn 0.099 	0.037 	0.994  
 
 vn ...
 
