@@ -71,7 +71,7 @@ Step3: **global.script** and **interpreterMode.script** need to be manually stor
 
 Step4: For the language, it is recommended to install **Python 3.9** or later, and **Windows 11** to avoid possible compatibility issues. This coderequires the installation of numpy, logging, time, re, shutil and interpreter.
 
-Step5: After all the above settings are completed, open a terminal and type **python main.py**, then enjoy. The source code will be released soon.
+Step5: After all the above settings are completed, open a terminal and type **python main.py**, then enjoy. Since the code for communicating with the robot is embedded in the code, please make sure that communication with the robot is established before running this code.
 
 
 **Conclusion**
