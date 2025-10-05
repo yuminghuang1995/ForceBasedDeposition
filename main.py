@@ -93,7 +93,6 @@ def filter_points_in_file(file_path, threshold=0.40):
     filtered_lines = []
 
     for i, line in enumerate(lines):
-        # 将每一行的数据拆分为浮点数
         values = list(map(float, line.split()))
 
         if 0.001 < values[6] < 0.080:
@@ -371,3 +370,4 @@ if __name__ == "__main__":
     execution_time = execution_time / 60
     sum_extrusion('output/merge.txt')
     print(f'Finish printing the model. Time: {execution_time:.3f}')
+
